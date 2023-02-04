@@ -9,7 +9,7 @@ export default class Newslist extends Component {
       <div className="container my-4">
         <div className="row">
           <div className="col-md p-0">
-          <News/>
+          <News pageSize={6}/>
          
     
           </div>
