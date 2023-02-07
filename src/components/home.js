@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Card from './card';
 import Carousel from './carousel';
+import Card from './Card'
 
 export default class home extends Component {
   render() {
@@ -8,10 +8,8 @@ export default class home extends Component {
 
          <>
          <Carousel />
-         
          <Card />
-         </>
-         
+        </>    
 
     )
   }
