@@ -11,6 +11,14 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+.btn {
+
+  padding: 5px 25px 5px 25px !important;
+}
+.btn-outline-secondary:hover{
+  background-color: black;
+}
 ul li {
     font-size: 18px;
     color: black;
